@@ -92,6 +92,12 @@ npm run preview
 ### 后端服务器
 
 确保后端 SpringBoot 服务正在运行在 `http://localhost:8081`。
+后端需要下载backed.zip将其部署在idea中，也可使用
+① 构建镜像
+docker build -t my-app:v1 .
+② 运行容器
+docker run -d -p 8080:81 my-app:v1
+部署在docker中运行
 
 ## 主要功能
 
